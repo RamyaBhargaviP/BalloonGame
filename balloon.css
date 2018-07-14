@@ -1,0 +1,44 @@
+
+#trex{
+    height: 150px;
+    width:150px;
+    position: absolute;
+    z-index: -1;
+    top:0px;
+    left: 50%;
+}
+@keyframes my-animation {
+
+    100% {
+      transform: translateX("-25px");
+    }
+}
+#balloon{
+    height: 80px;
+    width:80px;
+    position:absolute;
+    bottom:0px;
+    right:50%;
+    animation-direction: alternate;
+}
+#b2{
+    height: 80px;
+    width:80px;
+    position:absolute;
+    bottom:0px;
+    right:30%;
+}
+#b3{
+    height: 80px;
+    width:80px;
+    position:absolute;
+    bottom:0px;
+    right:80%;
+}
+body{
+    background-image: url("bg.gif");
+}
+.babyy{
+    position: absolute;
+    background:url("babyy.jpeg")
+}
